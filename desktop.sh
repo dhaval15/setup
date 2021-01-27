@@ -1,7 +1,7 @@
 #!/bin/sh
 printSection "Desktop"
 printProgress "Installing dependencies"
-carbonInstall openbox awesome-git polybar rofi-git plank compton-tryone-git lightdm-webkit-theme-aether nitrogen
+carbonInstall openbox obmenu-generator awesome-git polybar rofi-git plank compton-tryone-git lightdm-webkit-theme-aether nitrogen
 printProgress "Restoring Configuration"
 carbonLink $CARBON_INSTALLATION_DIRECTORY/dots/openbox $CARBON_INSTALLATION_DIRECTORY/.config/openbox
 carbonLink $CARBON_INSTALLATION_DIRECTORY/dots/awesome $CARBON_INSTALLATION_DIRECTORY/.config/awesome
