@@ -1,7 +1,7 @@
 #!/bin/sh
 printSection "Applications"
 printProgress "Installing dependencies"
-carbonInstall ranger qutebrowser alacritty typora mpv nemo zathura zathura-pdf-mupdf lxtaskchromium fzf exa bat gpick kitty ripgrep
+carbonInstall ranger qutebrowser alacritty typora mpv nemo zathura zathura-pdf-mupdf lxtask chromium fzf exa bat gpick kitty ripgrep sxiv
 printProgress "Restoring Configuration"
 carbonLink $CARBON_INSTALLATION_DIRECTORY/dots/alacritty $CARBON_INSTALLATION_DIRECTORY/.config/alacritty
 carbonLink $CARBON_INSTALLATION_DIRECTORY/dots/kitty $CARBON_INSTALLATION_DIRECTORY/.config/kitty
